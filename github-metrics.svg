@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420" class="metrics">
+  <defs>
+    <style>
+      .metrics {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        color: #24292f;
+      }
+      .title {
+        font-size: 20px;
+        font-weight: 700;
+        fill: #0969da;
+      }
+      .sec-title {
+        font-size: 15.5px;
+        font-weight: 600;
+        fill: #0969da;
+      }
+      .text-muted {
+        font-size: 13.5px;
+        fill: #57606a;
+      }
+      .icon {
+        fill: #57606a;
+      }
+      .sec-icon {
+        fill: #57606a;
+      }
+      .footer-text {
+        font-size: 11px;
+        font-style: italic;
+        fill: #57606a;
+      }
+    </style>
+    <clipPath id="avatar-clip">
+      <circle cx="14" cy="14" r="13" />
+    </clipPath>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="#ffffff" rx="6" />
+
+  <g transform="translate(20, 20)">
+
+    <!-- Top Left: Avatar + Name + Subtitles -->
+    <g transform="translate(0, 0)">
+      <g transform="translate(0, 0)">
+        <circle cx="14" cy="14" r="14" fill="#0969da" opacity="0.1"/>
+        <image href="data:image/jpeg;base64,/9j/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAEAAQAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APTbS61K0AWS1eZPdTkfjV9dat1H7+CaE/7SVUOvDtbn8X/+tWXq3i6ayEax2KuZAerdMY/xr0ZQb1lGx58JpaRlc6VdV09hxOg+oIqQX1kRlZ4f++hXmD+IpboF7e3RNxzvfkfgox/Sq7X163W6Yf7qqP6VMoUlszSLqvdI9aF1a/8APaL/AL6FL9qtcZ8+L/voV5KuoXq/8vG7/eRf6AU6TW75GDeVEUHXaDk/h6fSkoU+/wCA3Kr2X3nqjajYr1uIvwOagfWNOT/loD9FNcjbTR3VtFPHykihhz61btZltpd5hSTjowrf6rG173Of6zK9rWFRIj99mH0FYvidbYwW8MbuZWcscj+ADn88itzaK5rXgBqajP8AyxXj0+Zqqq/dFQXvozOAMAqoAJLMcKoAyST2AArIPijRBLs+23H/AF0+yfJ+e/d+O38Ku6nBNdaPqFvbgmeW32oo6vh0YqPcqp474xXlrH5iDwRxg9q8WpOcqjipWt2t9+q+XyPWhCNrs9bR1kRXRldHUMjocqynoR7f4EHBFVtS1CHTLF7qcnYrBAqjJdjnAH4A5Pb3yBVfRhJpHhi0W9t90io8oRg5ZEZsqNqkc9W57N0qPV7CTxN4fX7Ch+1Ry+fFAw2tKpXawAP8Q2g47gnFZvFT9kpNWV7N6d7XBQXNY2fBPjWwvLo6e9tKjH5kEjK/fnBAHc9MevNeiLe2+PuEf8Brwnwloeo2niG3ub21ms4o9w3XCGMsWUrgbsZxnJ9AK9mAzXo4KXtItN3S6/ocWL/dyXKtyXbXMeIItmpJISfniAH4E/411mPYVS1LTE1GAIW2SIco4GcH+orrqLmjY5qUlGVzhxIWlMZCcc8Nkj8MVY86XeH81jIP4zy3/fR5/WnX9u+mziGfBYruzHluPw5H41XSaOQ4V1J9M8/lXDUown8cU/U74ye8WLLIEVpJGZiTkknLMf6mookOwxyx8Ek88jk5x+FT0VaSSsigtbZDeW6xRgMZk+4MH7w7j8a7oIAAOePU5rC0DTBIY7+R0Yc+Wg5wehJ9+vFdHj6V00lyo4a8lKRyXijxPJo15lJCkUTKjKIw29iN3PfGMdDV5fFcAtT58DxXeMJH1WRvZv8AHBxmsHxRCi+KY7SRl3SObkBgeRtIH17/AJVFM2JIRxgkj8cH/wCvXn/WKiq8vdn0v9nYapgfareKWq77u/3jpJGJead8uxLO54yabG+9A20jPQEc1BOrzO6LIiBY8ncu4HOR+n/16ZDe74t5VZU/v27eYp/LmtHVipcrepwxwNaVJVIxun2/yLlR3BIt5SOoQn9KckiyLuU5FDAMpU9CMVe5zNNOzN/wrNi4mtieHUSKPQjAP8x+VdRsFcN4dmWPVLFmb5W+Qn1ypA/XFeg+XW8JaHHVh71z/9k=" width="28" height="28" clip-path="url(#avatar-clip)"/>
+        <text x="36" y="21" class="title">TechPioneerVictor</text>
+      </g>
+
+      <!-- Joined info -->
+      <g transform="translate(2, 38)">
+        <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm0 14.5a6.5 6.5 0 110-13 6.5 6.5 0 010 13zM8.75 4a.75.75 0 00-1.5 0v4.25c0 .2.08.39.22.53l2.5 2.5a.75.75 0 001.06-1.06L8.75 7.97V4z"/></g>
+        <text x="22" y="12" class="text-muted">Joined GitHub 2 years ago</text>
+      </g>
+
+      <!-- Followers info -->
+      <g transform="translate(2, 60)">
+        <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M2 5.5a3.5 3.5 0 115.898 2.549 5.508 5.508 0 013.034 4.084.75.75 0 11-1.482.235 4.002 4.002 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.493 3.493 0 012 5.5zM5.5 3.5a2 2 0 100 4 2 2 0 000-4z"/></g>
+        <text x="22" y="12" class="text-muted">Followed by 2 users</text>
+      </g>
+    </g>
+
+    <!-- Top Right: Green Contribution Squares + Contributed repos -->
+    <g transform="translate(340, 4)">
+      <!-- Contribution Grid Row (11 squares like image.png) -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="14" height="14" rx="2.5" fill="#216e39" />
+        <rect x="18" y="0" width="14" height="14" rx="2.5" fill="#30a14e" />
+        <rect x="36" y="0" width="14" height="14" rx="2.5" fill="#40c463" />
+        <rect x="54" y="0" width="14" height="14" rx="2.5" fill="#9be9a8" />
+        <rect x="72" y="0" width="14" height="14" rx="2.5" fill="#ebedf0" />
+        <rect x="90" y="0" width="14" height="14" rx="2.5" fill="#40c463" />
+        <rect x="108" y="0" width="14" height="14" rx="2.5" fill="#30a14e" />
+        <rect x="126" y="0" width="14" height="14" rx="2.5" fill="#40c463" />
+        <rect x="144" y="0" width="14" height="14" rx="2.5" fill="#9be9a8" />
+        <rect x="162" y="0" width="14" height="14" rx="2.5" fill="#40c463" />
+        <rect x="180" y="0" width="14" height="14" rx="2.5" fill="#ebedf0" />
+      </g>
+
+      <!-- Contributed repos -->
+      <g transform="translate(0, 34)">
+        <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M1.75 2.5h10.5a.75.75 0 010 1.5H1.75a.75.75 0 010-1.5zm0 9h10.5a.75.75 0 010 1.5H1.75a.75.75 0 010-1.5zm0-4.5h5.5a.75.75 0 010 1.5h-5.5a.75.75 0 010-1.5z"/></g>
+        <text x="22" y="12" class="text-muted">Contributed to 28 repositories</text>
+      </g>
+    </g>
+
+    <!-- SECTION 1: Activity (Left Column) -->
+    <g transform="translate(2, 106)">
+      <!-- Title -->
+      <g transform="translate(0, 0)">
+        <g transform="translate(0, 2) scale(0.95)" class="sec-icon"><path d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 4.47a.75.75 0 00-1.06-1.06L9.75 10.13 6.97 7.35a.75.75 0 00-1.06 0L2.22 11.03a.75.75 0 001.06 1.06l3.16-3.15 2.78 2.78a.75.75 0 001.06 0l5.5-5.5z"/></g>
+        <text x="22" y="14" class="sec-title">Activity</text>
+      </g>
+
+      <!-- Rows -->
+      <g transform="translate(0, 26)">
+        <g transform="translate(0, 0)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M11.93 8.5a4.002 4.002 0 01-7.86 0H.75a.75.75 0 010-1.5h3.32a4.002 4.002 0 017.86 0h3.32a.75.75 0 010 1.5h-3.32zM8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"/></g>
+          <text x="22" y="12" class="text-muted">184 Commits</text>
+        </g>
+        <g transform="translate(0, 22)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M1.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V1.75a.25.25 0 00-.25-.25H1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0114.25 16H1.75A1.75 1.75 0 010 14.25V1.75zm11.78 4.97a.75.75 0 00-1.06-1.06L7 9.38 5.28 7.66a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.06 0l4.25-4.25z"/></g>
+          <text x="22" y="12" class="text-muted">0 Pull requests reviewed</text>
+        </g>
+        <g transform="translate(0, 44)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-1.25 9.75a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zm9.75-9.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"/></g>
+          <text x="22" y="12" class="text-muted">4 Pull requests opened</text>
+        </g>
+        <g transform="translate(0, 66)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/></g>
+          <text x="22" y="12" class="text-muted">2 Issues opened</text>
+        </g>
+        <g transform="translate(0, 88)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.458 1.458 0 002.488 1.031l2.544-2.574h6.218A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zM1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25H7.8a.75.75 0 00-.53.22L4.5 14.44v-1.69a.75.75 0 00-.75-.75H1.75a.25.25 0 01-.25-.25v-8.5z"/></g>
+          <text x="22" y="12" class="text-muted">8 issue comments</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- SECTION 2: Community stats (Right Column) -->
+    <g transform="translate(340, 106)">
+      <!-- Title -->
+      <g transform="translate(0, 0)">
+        <g transform="translate(0, 2) scale(0.95)" class="sec-icon"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></g>
+        <text x="22" y="14" class="sec-title">Community stats</text>
+      </g>
+
+      <!-- Rows -->
+      <g transform="translate(0, 26)">
+        <g transform="translate(0, 0)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM4 4h2v2H4V4zm0 4h2v2H4V8zm0 4h2v2H4v-2zm6-8h2v2h-2V4zm0 4h2v2h-2V8zm0 4h2v2h-2v-2z"/></g>
+          <text x="22" y="12" class="text-muted">North China Electric Power Univ</text>
+        </g>
+        <g transform="translate(0, 22)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M2 5.5a3.5 3.5 0 115.898 2.549 5.508 5.508 0 013.034 4.084.75.75 0 11-1.482.235 4.002 4.002 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.493 3.493 0 012 5.5zM5.5 3.5a2 2 0 100 4 2 2 0 000-4z"/></g>
+          <text x="22" y="12" class="text-muted">Following 3 users</text>
+        </g>
+        <g transform="translate(0, 44)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.374 5.672a26.657 26.657 0 003.126 2.228 26.66 26.66 0 003.126-2.228C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 01-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5z"/></g>
+          <text x="22" y="12" class="text-muted">Sponsoring 0 repositories</text>
+        </g>
+        <g transform="translate(0, 66)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.695z"/></g>
+          <text x="22" y="12" class="text-muted">Starred 35 repositories</text>
+        </g>
+        <g transform="translate(0, 88)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M8 2c1.981 0 3.671.992 4.933 2.078 1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 010 1.798c-.45.678-1.367 1.932-2.637 3.023C11.67 13.008 9.981 14 8 14c-1.981 0-3.671-.992-4.933-2.078C1.797 10.83.88 9.577.43 8.899a1.62 1.62 0 010-1.798c.45-.678 1.367-1.932 2.637-3.023C4.33 2.992 6.019 2 8 2zm0 1.5c-1.617 0-3.018.802-4.133 1.765C2.76 6.219 2.03 7.28 1.677 7.828a.12.12 0 000 .144c.353.548 1.084 1.61 2.19 2.563C4.982 11.498 6.383 12.3 8 12.3c1.617 0 3.018-.802 4.133-1.765 1.107-.953 1.837-2.015 2.19-2.563a.12.12 0 000-.144c-.353-.548-1.084-1.61-2.19-2.563C11.018 4.302 9.617 3.5 8 3.5zM8 5a3 3 0 100 6 3 3 0 000-6z"/></g>
+          <text x="22" y="12" class="text-muted">Watching 16 repositories</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- SECTION 3: Repositories (Left Column Bottom) -->
+    <g transform="translate(2, 240)">
+      <!-- Title -->
+      <g transform="translate(0, 0)">
+        <g transform="translate(0, 2) scale(0.95)" class="sec-icon"><path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8V1.5z"/></g>
+        <text x="22" y="14" class="sec-title">28 Repositories</text>
+      </g>
+
+      <!-- Rows -->
+      <g transform="translate(0, 26)">
+        <g transform="translate(0, 0)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M7.25 1.75a.75.75 0 011.5 0v1.594l3.177.795a2.25 2.25 0 011.66 1.83l.794 4.767a2.25 2.25 0 01-1.895 2.589l-2.986.498V15.25a.75.75 0 01-1.5 0v-1.427l-2.986-.498A2.25 2.25 0 013.12 10.74l.794-4.767a2.25 2.25 0 011.66-1.83l3.176-.795V1.75z"/></g>
+          <text x="22" y="12" class="text-muted">Prefers MIT license</text>
+        </g>
+        <g transform="translate(0, 22)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM2.75 2.5a.25.25 0 00-.25.25v5.025c0 .066.026.13.073.177l6.25 6.25a.25.25 0 00.354 0l5.025-5.025a.25.25 0 000-.354l-6.25-6.25a.25.25 0 00-.177-.073H2.75zM6 5a1 1 0 11-2 0 1 1 0 012 0z"/></g>
+          <text x="22" y="12" class="text-muted">12 Releases</text>
+        </g>
+        <g transform="translate(0, 44)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392z"/></g>
+          <text x="22" y="12" class="text-muted">0 Packages</text>
+        </g>
+        <g transform="translate(0, 66)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M1.5 3C1.5 1.343 4.41 0 8 0s6.5 1.343 6.5 3v10c0 1.657-2.91 3-6.5 3s-6.5-1.343-6.5-3V3zm1.5 0c0 .684 2.015 1.5 5 1.5s5-.816 5-1.5c0-.684-2.015-1.5-5-1.5s-5 .816-5 1.5zm0 3.232C4.053 6.797 5.897 7 8 7c2.103 0 3.947-.203 5-.768V4.768C11.947 5.333 10.103 5.5 8 5.5c-2.103 0-3.947-.167-5-.732v1.464zm0 3.5C4.053 10.297 5.897 10.5 8 10.5c2.103 0 3.947-.203 5-.768V8.268C11.947 8.833 10.103 9 8 9c-2.103 0-3.947-.167-5-.732v1.464zm0 3.5C4.053 13.797 5.897 14 8 14c2.103 0 3.947-.203 5-.768v-1.464C11.947 12.333 10.103 12.5 8 12.5c-2.103 0-3.947-.167-5-.732v1.464z"/></g>
+          <text x="22" y="12" class="text-muted">1.02 GB used</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- SECTION 4: Repo Stats (Right Column Bottom) -->
+    <g transform="translate(340, 240)">
+      <g transform="translate(0, 26)">
+        <g transform="translate(0, 0)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.374 5.672a26.657 26.657 0 003.126 2.228 26.66 26.66 0 003.126-2.228C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 01-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5z"/></g>
+          <text x="22" y="12" class="text-muted">0 Sponsors</text>
+        </g>
+        <g transform="translate(0, 22)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.695z"/></g>
+          <text x="22" y="12" class="text-muted">15 Stargazers</text>
+        </g>
+        <g transform="translate(0, 44)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h4.5A2.25 2.25 0 0012.5 6.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm6.5-2.122a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM8 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm.75-2.122A2.25 2.25 0 107.25 15v-.878A2.25 2.25 0 019.5 11.872v-.878a2.25 2.25 0 00-.75-.366z"/></g>
+          <text x="22" y="12" class="text-muted">2 Forkers</text>
+        </g>
+        <g transform="translate(0, 66)">
+          <g transform="translate(0, 0) scale(0.9)" class="icon"><path d="M8 2c1.981 0 3.671.992 4.933 2.078 1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 010 1.798c-.45.678-1.367 1.932-2.637 3.023C11.67 13.008 9.981 14 8 14c-1.981 0-3.671-.992-4.933-2.078C1.797 10.83.88 9.577.43 8.899a1.62 1.62 0 010-1.798c.45-.678 1.367-1.932 2.637-3.023C4.33 2.992 6.019 2 8 2zm0 1.5c-1.617 0-3.018.802-4.133 1.765C2.76 6.219 2.03 7.28 1.677 7.828a.12.12 0 000 .144c.353.548 1.084 1.61 2.19 2.563C4.982 11.498 6.383 12.3 8 12.3c1.617 0 3.018-.802 4.133-1.765 1.107-.953 1.837-2.015 2.19-2.563a.12.12 0 000-.144c-.353-.548-1.084-1.61-2.19-2.563C11.018 4.302 9.617 3.5 8 3.5zM8 5a3 3 0 100 6 3 3 0 000-6z"/></g>
+          <text x="22" y="12" class="text-muted">16 Watchers</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Footer -->
+    <g transform="translate(660, 375)" text-anchor="end">
+      <text x="0" y="0" class="footer-text">These metrics include private contributions</text>
+      <text x="0" y="16" class="footer-text">Last updated 29 Aug 2026, 23:14:00 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</text>
+    </g>
+
+  </g>
+</svg>
