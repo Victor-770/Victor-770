@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>👋 你好，我是 Victor (TechPioneerVictor)</h1>
+  <h1>👋 Hi，I'm Victor (TechPioneerVictor)</h1>
 
   <a href="https://github.com/Victor-770">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&width=650&lines=%E4%B8%93%E6%B3%A8+AI+Agent+%E7%94%9F%E6%80%81%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%A1%8C%E9%9D%A2%E4%B8%AD%E6%9E%A2%E6%9E%B6%E6%9E%84;%E5%B7%B2%E4%B8%8A%E7%BA%BF+4+%E4%B8%AA%E7%8B%AC%E7%AB%8B+Web+%E4%BA%A7%E5%93%81%E4%B8%8E%E5%9C%A8%E7%BA%BF%E5%B9%B3%E5%8F%B0;DeepSeek+Harness+%E6%8F%92%E4%BB%B6%E7%94%9F%E6%80%81%E5%BB%BA%E8%AE%BE%E8%80%85;%E6%8C%81%E7%BB%AD%E6%8E%A2%E7%B4%A2%E7%B3%BB%E7%BB%9F%E7%BA%A7%E5%B7%A5%E5%85%B7%E4%B8%8E%E7%8E%B0%E4%BB%A3%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B" alt="打字机动画" />
