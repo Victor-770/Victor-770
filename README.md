@@ -256,7 +256,6 @@
 
 ### 📫 交流与合作 (Connect & Collaborate)
 
-💡 **欢迎交流探讨：数学建模 ·  独立开发 · 软件出海 · SEO  · 人工智能！**  
 📧 **联系邮箱：** [`qwe1210477216@gmail.com`](mailto:qwe1210477216@gmail.com)
 
 <p align="left">
